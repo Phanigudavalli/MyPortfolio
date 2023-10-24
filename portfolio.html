@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/da84f770a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./phani_logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" id = "menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" id = "menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Phani</span><br>Gudavalli From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------About------------------ -->
+    
+<div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./passport_photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As an aspiring front-end developer, I'm passionate about creating engaging and user-friendly web experiences. Although I'm relatively new to the field, my enthusiasm and dedication drive me to continually learn and grow. I'm excited to embark on this journey, leveraging my creativity and problem-solving skills to craft visually appealing and responsive websites.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>B-Tech from BIHER Tamil Nadu</li>
+                            <li><span>2019</span><br>MPC from R.k Andhra Pradesh</li>
+                            <li><span>2017</span><br>10th from Vidyanjali Andhra pradesh</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> I combine my creative flair with technical expertise to craft digital experiences that not only look stunning but also function seamlessly.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> I combine my creative flair with technical expertise to craft digital experiences that not only look stunning but also function seamlessly.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Designer</h2>
+                    <p> I combine my creative flair with technical expertise to craft digital experiences that not only look stunning but also function seamlessly.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- -----------portfolio------------------------------    -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="work">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./photo1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./photo2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./photo3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+<!-- ---------------------contact------------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  phanigudavalli7@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  +91 9951897703</p>
+                    <div class="Social-icons"></div>
+                    <a href="https://www.instagram.com/phani_official7/?igshid=NGVhN2U2NjQ0Yg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kanaka-phani-gudavalli-354465247/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="./GUDAVALLI's-CV.pdf" class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Phani. made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks =document.getElementsByClassName('tab-links')
+        var tabcontents =document.getElementsByClassName('tab-contents')
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');           
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');           
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+
+    <script>
+        var sidemue = document.getElementById('sidemenu');
+         function openmenu(){
+            sidemue.style.right="0";
+         }
+         function closemenu(){
+            sidemue.style.right="-200px";
+         }
+    </script>
+    
+</body>
+</html>
